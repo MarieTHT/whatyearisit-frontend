@@ -1,6 +1,6 @@
 //const { response } = require("express")
 
-fetch('http://whatyearisit-backend-kappa-khaki.vercel.app/year')
+fetch('https://whatyearisit-backend-kappa-khaki.vercel.app/year')
     .then(response => response.json())
     .then((data) => {
         console.log(data.year);
